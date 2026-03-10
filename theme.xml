@@ -349,4 +349,54 @@ License: creative commons CC-BY-NC-SA
 
   </view>
   
+  <view name="system" aspectRatio="4:3">
+    <carousel name="systemcarousel">
+      <pos>0.125 0.15</pos>
+      <size>0.75 0.7</size>
+      <logoSize>0.6 0.6</logoSize>
+    </carousel>
+    <image name="logo">
+      <pos>0.5 0.5</pos>
+      <maxSize>0.6 0.2</maxSize>
+      <origin>0.5 0.5</origin>
+    </image>
+    <text name="logoText">
+      <pos>0.5 0.5</pos>
+      <size>0.9 0.1</size>
+      <alignment>center</alignment>
+      <origin>0.5 0.5</origin>
+    </text>
+  </view>
+
+  <view name="detailed" aspectRatio="4:3">
+    <textlist name="gamelist">
+      <pos>0.05 0.167</pos>
+      <size>0.45 0.7</size>
+    </textlist>
+    <video name="md_video">
+      <pos>0.74 0.5</pos>
+      <maxSize>0.4 0.5</maxSize>
+      <origin>0.5 0.5</origin>
+    </video>
+  </view>
+
+  <view name="basic" aspectRatio="4:3">
+    <textlist name="gamelist">
+      <pos>0.1 0.167</pos>
+      <size>0.8 0.7</size>
+    </textlist>
+  </view>
+
+  <view name="grid" aspectRatio="4:3">
+    <imagegrid name="gamegrid">
+      <pos>0 0</pos>
+      <size>1 1</size>
+      <autoLayout>2 3</autoLayout>
+    </imagegrid>
+    <video name="md_video">
+      <pos>0.85 0.1</pos>
+      <maxSize>0.2 0.15</maxSize>
+    </video>
+  </view>
+
 </theme>

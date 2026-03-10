@@ -20,8 +20,8 @@
 
         <!-- Theme compatibility -->
 
-        <include subset="Cpmpatibility" name="ArkOS" displayName="ArkOS">./options/os/arkos.xml</include>
-         <include subset="Cpmpatibility" name="Jelos/Rocknix" displayName="Jelos/Rocknix">./options/os/jelrock.xml</include>
+        <include subset="Compatibility" name="ArkOS" displayName="ArkOS">./options/os/arkos.xml</include>
+         <include subset="Compatibility" name="Jelos/Rocknix" displayName="Jelos/Rocknix">./options/os/jelrock.xml</include>
 
 
 </theme>

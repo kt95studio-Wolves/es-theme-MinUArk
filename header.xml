@@ -11,8 +11,8 @@ License: creative commons CC-BY-NC-SA
   
   <view name="screen">
     <text name="clock">
-      <origin>0 0.5</origin>
-      <pos>1 0.034</pos>
+      <origin>1 0.5</origin>
+      <pos>0.98 0.034</pos>
       <size>0.3 .1</size>
       <fontSize>0.026</fontSize>
       <color>${clockcolor}</color>
